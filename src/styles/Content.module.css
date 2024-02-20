@@ -1,0 +1,121 @@
+.studying-img {
+  width: 550px;
+  height: 350px;
+  margin-bottom: 10px;
+}
+
+.custom-list {
+  list-style: none !important;
+  list-style-type: none !important;
+  padding: 0;
+  margin: 0;
+}
+
+.container-sidebar {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra los elementos en el eje principal */
+  align-items: center; /* Centra los elementos en el eje secundario */
+}
+
+.container-content {
+  padding: 20px; /* Ajusta el padding según el tamaño del contenido */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  max-width: 1200px; /* Limita el ancho máximo del contenedor */
+  font-size: 100%;
+}
+
+.card-container {
+  width: 80%; /* Ancho del 80% del contenedor */
+  margin: 0 auto; /* Centra horizontalmente */
+  padding: 20px; /* Espacio interno */
+  border: 1px solid #ccc; /* Borde sólido con color gris */
+  border-radius: 10px; /* Borde redondeado */
+  background-color: #f9f9f9; /* Color de fondo */
+}
+
+@media (max-width: 576px) {
+  .column {
+    justify-content: flex-start;
+  }
+  .studying-img {
+    width: 400px;
+    height: 250px;
+  }
+  .container-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-content {
+    padding: 5px;
+  }
+  .card-container {
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    margin-bottom: 10px; /* Agrega espacio entre las cards */
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .column {
+    justify-content: center;
+  }
+  .studying-img {
+    width: 400px;
+    height: 250px;
+  }
+  .container-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card-container {
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    margin-bottom: 15px; /* Agrega un poco más de espacio entre las cards */
+  }
+  .container-content {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .column {
+    justify-content: flex-end;
+  }
+  .studying-img {
+    width: 400px; /* Reduciendo el ancho de la imagen */
+    height: 250px; /* Reduciendo la altura de la imagen */
+  }
+  .container-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-content {
+    padding: 15px;
+  }
+  .card-container {
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    margin-bottom: 20px; /* Agrega espacio entre las cards */
+  }
+}
+
+@media (min-width: 992px) {
+  .column {
+    justify-content: center;
+  }
+  .studying-img {
+    width: 500px;
+    height: 300px;
+    margin-bottom: 5px;
+  }
+  .container-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-content {
+    padding: 20px;
+  }
+}

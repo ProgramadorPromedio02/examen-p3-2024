@@ -1,0 +1,17 @@
+.dimensiones-logo {
+  width: 200px;
+  height: 80px;
+}
+
+@media (max-width: 850px) {
+  .dimensiones-logo {
+    width: 75px;
+    height: 75px;
+  }
+}
+@media (max-width: 400px) {
+  .dimensiones-logo {
+    width: 70px;
+    height: 70px;
+  }
+}
