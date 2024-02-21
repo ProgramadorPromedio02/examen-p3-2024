@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3f9f38a6.css",
+    "main.js": "/static/js/main.fdab047b.js",
+    "static/media/login-register.png": "/static/media/login-register.170e59616a192f919a5e.png",
+    "static/media/PROYECTO2.png": "/static/media/PROYECTO2.47522bbad6c52b8a130e.png",
+    "static/media/tech-store.png": "/static/media/tech-store.227be3d3f5b7c3f6cc47.png",
+    "static/media/studying.png": "/static/media/studying.a996d5b82dbb5100e391.png",
+    "static/media/PROYECTO1.png": "/static/media/PROYECTO1.cb2d2770d8d6725610c0.png",
+    "static/media/img1.png": "/static/media/img1.f45a8336da789d7f29be.png",
+    "static/media/img4.png": "/static/media/img4.9dacaa8578a0809d6772.png",
+    "static/media/img3.png": "/static/media/img3.e2a93bc63ea350725ac9.png",
+    "static/media/img5.png": "/static/media/img5.4e8541c92c4a1ddb05eb.png",
+    "static/media/PROYECTO3.png": "/static/media/PROYECTO3.17b6273bf03c77234537.png",
+    "static/media/Programming-Training-Logo.png": "/static/media/Programming-Training-Logo.a774691dd58a9d7e33de.png",
+    "static/media/img2.png": "/static/media/img2.bcc568c88792b1b06410.png",
+    "static/media/Logotipo(Gonzalof).png": "/static/media/Logotipo(Gonzalof).861f8be96b1dcddb156f.png",
+    "static/media/logosmall.png": "/static/media/logosmall.861f8be96b1dcddb156f.png",
+    "static/media/ERROR.svg": "/static/media/ERROR.ddbeb39ec8031ce32846740e205c3a6c.svg",
+    "index.html": "/index.html",
+    "main.3f9f38a6.css.map": "/static/css/main.3f9f38a6.css.map",
+    "main.fdab047b.js.map": "/static/js/main.fdab047b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f9f38a6.css",
+    "static/js/main.fdab047b.js"
+  ]
+}
