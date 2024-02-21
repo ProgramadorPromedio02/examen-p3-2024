@@ -4,6 +4,7 @@ import NavbarDesigne from "./NavbarDesigne";
 import Content from "../components/Content";
 import SideBar from "../components/SideBar";
 import CarouselHeader from "../components/CarouselHeader";
+import ProjectsComponent from "./ProjectsComponent";
 
 function Grid() {
   return (
@@ -20,10 +21,14 @@ function Grid() {
       <div className={style["lateralConteiner"]}>
         <SideBar />
       </div>
+      <div className={style["projectContainer"]}>
+        <ProjectsComponent />
+      </div>
       <div className={style["footerConteiner"]}>
         <Footer />
       </div>
     </div>
   );
-};
+}
+
 export default Grid;

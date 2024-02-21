@@ -5,23 +5,22 @@
   margin-left: 5em;
 }
 
-/* Estilos de las tarjetas (cards) */
 .card {
   width: auto;
   height: auto;
   background: white;
-  padding: .4em;
+  padding: 0.4em;
   border-radius: 6px;
 }
 
-.card-image {
+.cardImage {
   background-color: rgb(108, 151, 230);
   width: auto;
   height: auto;
   border-radius: 6px 6px 0 0;
 }
 
-.card-image:hover {
+.cardImage:hover {
   transform: scale(0.98);
 }
 
@@ -46,7 +45,6 @@
   font-weight: 600;
   color: rgb(88, 87, 87);
   padding: 7px;
-
 }
 
 .heading:hover {
@@ -68,30 +66,6 @@
   cursor: pointer;
 }
 
-
-
-@keyframes blob-bounce {
-  0% {
-    transform: translate(-100%, -100%) translate3d(0, 0, 0);
-  }
-
-  25% {
-    transform: translate(-100%, -100%) translate3d(100%, 0, 0);
-  }
-
-  50% {
-    transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
-  }
-
-  75% {
-    transform: translate(-100%, -100%) translate3d(0, 100%, 0);
-  }
-
-  100% {
-    transform: translate(-100%, -100%) translate3d(0, 0, 0);
-  }
-}
-
 @media (max-width: 1400px) {
   .table {
     grid-template-columns: repeat(3, 1fr);
@@ -100,7 +74,7 @@
   .card {
     width: 18em;
     height: auto;
-    padding: .4em;
+    padding: 0.4em;
   }
 }
 
@@ -112,18 +86,28 @@
   .card {
     width: 20em;
     height: auto;
-    padding: .4em;
+    padding: 0.4em;
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 480px) {
   .table {
     grid-template-columns: repeat(1, 1fr);
     gap: 5px;
+    margin-left: 1em;
   }
   .card {
-    width: 18em;
-    height: auto;
-    padding: .2em;
+    width: 12em;
+    padding: 0.2em;
+  }
+  .productImage {
+    margin: 1em;
+    width: 8em;
+  }
+  .category {
+    font-size: 1em;
+  }
+  .author {
+    font-size: 0.8em;
   }
 }

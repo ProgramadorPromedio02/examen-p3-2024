@@ -1,0 +1,5 @@
+.product-screen-bg {
+  background-image: url("../img/tech-store.png"); /* Ruta de la imagen de fondo */
+  background-size: auto; /* Ajusta la imagen para cubrir todo el contenedor */
+  background-position: center center; /* Centra la imagen en el contenedor */
+}

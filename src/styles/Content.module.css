@@ -1,7 +1,8 @@
 .studying-img {
   width: 550px;
-  height: 350px;
+  height: 150px;
   margin-bottom: 10px;
+  border: 2px solid black;
 }
 
 .custom-list {
@@ -19,11 +20,24 @@
   align-items: center; /* Centra los elementos en el eje secundario */
 }
 
-.container-content {
+h1,
+h3 {
+  padding: 20px; /* Ajusta el padding según el tamaño del contenido */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  max-width: 1200px; /* Limita el ancho máximo del contenedor */
+  font-size: 200%;
+  background-color: rgba(7, 10, 180, 0.3); /* Background oscuro transparente */
+  border-radius: 10px; /* Borde redondeado */
+  box-shadow: 0px 4px 8px rgba(7, 10, 180, 0.3); /* Sombra */
+}
+p {
   padding: 20px; /* Ajusta el padding según el tamaño del contenido */
   margin: 0 auto; /* Centra el contenedor horizontalmente */
   max-width: 1200px; /* Limita el ancho máximo del contenedor */
   font-size: 100%;
+  background-color: rgba(7, 10, 180, 0.3); /* Background oscuro transparente */
+  border-radius: 10px; /* Borde redondeado */
+  box-shadow: 0px 4px 8px rgba(7, 10, 180, 0.3); /* Sombra */
 }
 
 .card-container {

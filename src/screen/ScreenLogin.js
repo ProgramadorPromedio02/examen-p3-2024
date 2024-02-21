@@ -34,7 +34,7 @@ function ScreenLogin() {
     ? "Bienvenido. ¿Quieres ir al home?"
     : "Usuario o contraseña incorrectos. Por favor, inténtelo nuevamente.";
   return (
-    <div className="d-flex justify-content-center">
+    <div className={`d-flex justify-content-center ${styles["fondo-login"]}`}>
       <CardForm
         content={
           <Container>

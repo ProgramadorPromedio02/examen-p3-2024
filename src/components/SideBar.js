@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import CustomCard from "./CustomCard";
 import WeatherComponent from "./WeatherComponent";
 import styles from "../styles/Content.module.css";
-
 import { Col } from "react-bootstrap";
 
 function SideBar() {
@@ -14,17 +13,18 @@ function SideBar() {
     { id: 5, nombre: "CSS", visto: true },
   ];
   return (
-    <div className={`${styles["container-sidebar"]}`}>
+    <div className={styles["container-sidebar"]}>
       <Col
-        sm={6}
+        sm={11}
         md={11}
-        lg={12}
-        className="d-flex justify-content-end align-items-end"
+        lg={11}
+        xl={12}
+        className="d-flex justify-content-center align-items-center"
       >
         <CustomCard
           content={
-            <div className="text-center m-1 p-1 ">
-              <h6>Para la realización de está página, se uso:</h6>
+            <div className="text-center m-1 p-1">
+              <h6>Para la realización de esta página, se usó:</h6>
               <ul>
                 {lenguajes.map((lenguaje) => (
                   <li key={lenguaje.id}>
@@ -41,17 +41,15 @@ function SideBar() {
         sm={6}
         md={11}
         lg={12}
-        className="d-flex justify-content-end align-items-end"
+        className="d-flex justify-content-center align-items-center"
       >
         <CustomCard
           content={
-            <div className="text-center m-1 p-1 ">
-              <h6>
-                Algunas de nuestras recomendaciones para un Setup profesional
-              </h6>
-              <Link to="/products" className=" m-2 ">
-                <button type="submit" className="btn btn-primary m-2 ">
-                  Ir a la Tienda
+            <div className="text-center m-1 p-1">
+              <h6>TIENDA ELECTRÓNICA:</h6>
+              <Link to="/products" className="m-2">
+                <button type="submit" className="btn btn-primary m-2">
+                  🔌Entrar🔌
                 </button>
               </Link>
             </div>
@@ -62,7 +60,7 @@ function SideBar() {
         sm={6}
         md={11}
         lg={12}
-        className="d-flex justify-content-end align-items-end"
+        className="d-flex justify-content-center align-items-center"
       >
         <CustomCard content={<WeatherComponent />} />
       </Col>

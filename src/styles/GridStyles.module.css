@@ -1,14 +1,19 @@
 .conteinerClass {
   display: grid;
   grid-template-areas:
-    'navbar navbar'
-    'header header'
-    'content lateral'
-    'footer footer';
+    "navbar navbar"
+    "header header"
+    "content lateral"
+    "project project"
+    "footer footer";
   grid-template-columns: auto 35%;
   gap: 0;
-  grid-template-rows: auto auto auto auto;
-  background-color: rgb(120, 201, 255);
+  grid-template-rows: auto auto auto auto auto;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(32, 71, 227, 0.8),
+    rgb(30, 23, 238, 0.5)
+  );
 }
 
 .navbarConteiner {
@@ -17,53 +22,30 @@
 
 .headerConteiner {
   grid-area: header;
+  background-color: rgba(6, 72, 169, 0.9);
 }
 
 .contentConteiner {
   grid-area: content;
-  width: 100%; 
-  position: relative; 
+  width: 100%;
+  position: relative;
   left: 0;
 }
 
 .lateralConteiner {
   grid-area: lateral;
-  position: relative; 
+  position: relative;
   right: 0;
+}
+
+.projectContainer {
+  grid-area: project;
+  width: 100%;
+  position: relative;
+  left: 0;
 }
 
 .footerConteiner {
   margin-top: 20px;
   grid-area: footer;
-}
-
-@media (max-width: 1400px) {
-  .contentConteiner {
-    grid-area: content;
-    margin: 0;
-  }
-
-  .lateralConteiner {
-    grid-area: lateral;
-    width: 100%;
-  }
-}
-
-@media (max-width: 900px) {
-  .conteinerClass {
-    grid-template-areas:
-      'navbar'
-      'header'
-      'content'
-      'lateral'
-      'footer';
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto auto auto auto;
-  }
-
-
-  .lateralConteiner {
-    grid-area: lateral;
-    width: 100%;
-  }
 }

@@ -1,4 +1,5 @@
 .custom-card {
+  color: #fff;
   position: relative;
   width: 14.5em;
   height: 15.5em;
@@ -20,11 +21,11 @@
   width: 14em;
   height: 15em;
   z-index: 2;
-  background: rgba(40, 139, 252, 0.95);
+  background: rgba(35, 71, 247, 0.8);
   backdrop-filter: blur(24px);
   border-radius: 10px;
   overflow: hidden;
-  outline: 2px solid rgba(40, 139, 252, 0.95);
+  outline: 2px solid rgba(35, 71, 247, 0.7);
   padding: 5px;
 }
 

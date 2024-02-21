@@ -1,17 +1,46 @@
+/* LoginDesigne.module.css */
+
 .dimensiones-logo {
-  width: 200px;
-  height: 80px;
+  width: 200rem; /* Ancho inicial para tamaños grandes */
+  height: auto; /* Altura automática para mantener la proporción */
 }
 
-@media (max-width: 850px) {
+.fondo-login {
+  background-image: url("../img/login-register.png"); /* Ruta a tu imagen de fondo */
+  background-size: cover; /* La imagen de fondo cubrirá todo el área */
+  background-position: center; /* La imagen de fondo se posicionará en el centro */
+  position: fixed; /* La posición fija asegura que el fondo ocupe toda la ventana */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ancho completo */
+  height: 100%; /* Altura completa */
+  z-index: -1; /* Colocar el fondo detrás del contenido */
+}
+
+@media (max-width: 576px) {
   .dimensiones-logo {
-    width: 75px;
-    height: 75px;
+    width: 200px; /* Ancho para dispositivos pequeños */
+    height: auto; /* Altura automática */
   }
 }
-@media (max-width: 400px) {
+
+@media (min-width: 577px) and (max-width: 768px) {
   .dimensiones-logo {
-    width: 70px;
-    height: 70px;
+    width: 10rem; /* Ancho para dispositivos medianos */
+    height: auto; /* Altura automática */
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .dimensiones-logo {
+    width: 15rem; /* Ancho para dispositivos grandes */
+    height: auto; /* Altura automática */
+  }
+}
+
+@media (min-width: 125px) {
+  .dimensiones-logo {
+    width: 18rem; /* Ancho para pantallas muy grandes */
+    height: auto; /* Altura automática */
   }
 }

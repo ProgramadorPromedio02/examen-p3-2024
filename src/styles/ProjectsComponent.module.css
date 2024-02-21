@@ -1,0 +1,75 @@
+.projectsSection {
+  padding: 40px;
+  text-align: center; /* Centra el contenido del section */
+}
+
+.heading {
+  color: white;
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: "Rubik Dirt", cursive;
+}
+
+.descripcion h3 {
+  font-size: 1.2rem;
+  color: #fff;
+  text-align: center; /* Centra el texto horizontalmente */
+  margin-top: 20px; /* Agrega espacio arriba */
+}
+
+.projectsContainer {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.project {
+  position: relative;
+}
+
+.project img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay h2 {
+  font-size: 1.5rem; /* Cambia el tamaño del texto */
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.project:hover img {
+  opacity: 0.2;
+}
+
+.project:hover .overlay {
+  opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+  display: flex;
+}
+
+.overlay i {
+  color: black;
+  font-size: 3rem; /* Cambia el tamaño de los iconos */
+  margin: 10px;
+}
+
+.btn {
+  margin-top: 20px;
+  font-size: 1.5rem; /* Cambia el tamaño del botón */
+}
