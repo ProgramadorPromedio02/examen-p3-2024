@@ -96,26 +96,29 @@ li {
     height: 12.5em;
   }
 }
-@media (max-width: 1200px) {
+
+@media (max-width: 1024px) {
   .custom-card {
-    width: 12.5em;
+    width: 12em;
     height: 13em;
+    margin: 15px;
+    margin-left: 0;
   }
   .bg {
-    width: 12em;
-    height: 12.5em;
+    width: 11.5em;
+    height: 12em;
   }
   .bg h6 {
-    font-size: 1.1em;
+    font-size: 1em;
   }
   .bg strong,
   span,
   li {
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
   .blob {
-    width: 11.5em;
-    height: 11.5em;
+    width: 11em;
+    height: 12em;
   }
 }
 
@@ -129,29 +132,7 @@ li {
     height: 12.5em;
   }
   .bg h6 {
-    font-size: 4em;
-  }
-  .bg strong,
-  span,
-  li {
-    font-size: 0.9em;
-  }
-  .blob {
-    width: 12em;
-    height: 12.5em;
-  }
-}
-@media (max-width: 600px) {
-  .custom-card {
-    width: 10.5em;
-    height: 13em;
-  }
-  .bg {
-    width: 10em;
-    height: 12.5em;
-  }
-  .bg h6 {
-    font-size: 1em;
+    font-size: 0.7em;
   }
   .bg strong,
   span,
@@ -159,7 +140,53 @@ li {
     font-size: 0.7em;
   }
   .blob {
-    width: 11em;
+    width: 12em;
     height: 12.5em;
+  }
+}
+
+@media (max-width: 600px) {
+  .custom-card {
+    width: 10.5em;
+    height: 13em;
+  }
+  .bg {
+    width: 12em;
+    height: auto;
+  }
+  .bg h6 {
+    font-size: auto;
+  }
+  .bg strong,
+  span,
+  li {
+    font-size: 0.7em;
+  }
+  .blob {
+    width: 2em;
+    height: 4.5em;
+  }
+}
+
+@media (max-width: 425px) {
+  .custom-card {
+    width: 7.5em;
+    height: 10.5em;
+  }
+  .bg {
+    width: 7.5em;
+    height: auto;
+  }
+  .bg h6 {
+    font-size: 0.7em;
+  }
+  .bg strong,
+  span,
+  li {
+    font-size: 0.5em;
+  }
+  .blob {
+    width: 3em;
+    height: 3em;
   }
 }

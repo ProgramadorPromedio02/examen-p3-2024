@@ -1,12 +1,11 @@
 .weather-container {
   text-align: center; /* Centra el contenido en todas las pantallas */
-  margin: 10px; /* Añade un margen alrededor del contenedor */
-  padding: 10px; /* Añade relleno al contenedor */
+  font-size: small;
 }
 
 @media (max-width: 576px) {
   .weather-container h6 {
-    font-size: 1px; /* Tamaño de fuente más grande para h6 en pantallas pequeñas */
+    font-size: 0.5rem; /* Tamaño de fuente más grande para h6 en pantallas pequeñas */
     display: flex;
     justify-content: center;
     align-items: center;

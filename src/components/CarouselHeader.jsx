@@ -6,10 +6,22 @@ import img2 from "../img/img2.png";
 import img3 from "../img/img3.png";
 import img4 from "../img/img4.png";
 import img5 from "../img/img5.png";
+import imgInicio from "../img/imgInicio.png";
+import imgFinal from "../img/imgFinal.png";
 
 function CarouselHeader() {
   return (
     <Carousel className={styles["carousel"]} fade>
+      <Carousel.Item>
+        <a
+          className={styles["button"]}
+          href="https://www.youtube.com/watch?v=wlpSM2VLEgA"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className={styles["image"]} src={imgInicio} alt="Cactroll" />
+        </a>
+      </Carousel.Item>
       <Carousel.Item>
         <img className={styles["image"]} src={img1} alt="Aprende React" />
         <Carousel.Caption>
@@ -89,6 +101,16 @@ function CarouselHeader() {
             </p>
           </a>
         </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <a
+          className={styles["button"]}
+          href="https://www.youtube.com/watch?v=sexwvNp6xds"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className={styles["image"]} src={imgFinal} alt="FinDeAño2023" />
+        </a>
       </Carousel.Item>
     </Carousel>
   );

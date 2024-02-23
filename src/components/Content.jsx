@@ -35,10 +35,9 @@ function Content() {
           md={6}
           className="img-container d-flex justify-content-center"
         >
-          {/* Asegúrate de que la ruta de la imagen sea correcta y que studying.png exista */}
           <img
             alt="Estudio"
-            className={`${styles["studying-img"]} img-fluid`}
+            className={`${styles["studying-img"]}`}
             src={studying}
           />
         </Col>

@@ -30,6 +30,7 @@
   border-radius: 10px;
   display: block;
   transition: all 0.2s ease;
+  border: 5px solid rgba(7, 10, 180, 0.3);
 }
 
 .overlay {

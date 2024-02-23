@@ -15,8 +15,8 @@
   width: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
 }
 
 h1,
@@ -54,14 +54,6 @@ p {
   .container-sidebar {
     width: 10%;
     padding: 3px;
-  }
-  h1,
-  h3,
-  p {
-    font-size: 14px;
-    padding: 8px;
-    margin: 0 auto;
-    max-width: 100%;
   }
   .container-content {
     padding: 2px;
@@ -105,7 +97,6 @@ p {
     font-size: 16px;
     padding: 10px;
     margin: 0 auto;
-    max-width: 100%;
   }
   .title-container,
   .custom-container,
@@ -129,6 +120,7 @@ p {
   .container-sidebar {
     display: flex;
     flex-wrap: wrap;
+    min-width: 100%;
   }
   .card-container {
     width: 100%;
@@ -140,20 +132,29 @@ p {
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-  .studying-img {
-    width: 400px;
-    height: 250px;
-  }
-  .container-sidebar {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .container-content {
-    padding: 15px;
-  }
   .card-container {
+    width: 48%;
+    margin: 5px;
+  }
+
+  .studying-img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .container-sidebar {
     width: 100%;
-    margin-bottom: 20px;
+    height: auto;
+    padding: 10px;
+  }
+
+  h1,
+  h3,
+  p {
+    font-size: 18px;
+    padding: 10px;
+    margin: 0 auto;
   }
 }
 
